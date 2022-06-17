@@ -18,7 +18,7 @@ const Home = () => {
                         to='work'
                         smooth={true}  
                         duration={500}
-                        className='text-white w-40 group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#E20A13] hover:border-[#E20A13]'
+                        className='text-white w-40 group border-2 px-6 py-3 my-2 flex items-center cursor-pointer hover:bg-[#E20A13] hover:border-[#E20A13]'
                     >
                         View Work 
                         <span className='group-hover:rotate-90 duration-300 '>

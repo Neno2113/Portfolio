@@ -1,4 +1,5 @@
 import WorkImg from '../assets/workImg.jpeg';
+import WebChat from '../assets/chat.png';
 import RealState from '../assets/realestate.jpg';
 import WorkItems from './WorkItems';
 
@@ -15,12 +16,7 @@ const Work = () => {
                 <div 
                     className="grid sm:grid-cols-2 md:grid-cols-3 gap-4"
                 >
-                    <WorkItems img={ WorkImg }  appName="React JS Application"/>
-                    <WorkItems img={ RealState }  appName="React JS Application"/>
-                    <WorkItems img={ WorkImg }  appName="React JS Application"/>
-                    <WorkItems img={ RealState }  appName="React JS Application"/>
-                    <WorkItems img={ WorkImg }  appName="React JS Application"/>
-                    <WorkItems img={ RealState }  appName="React JS Application"/>
+                    <WorkItems img={ WebChat }  codeLink="https://github.com/Neno2113/webchat" appName="React | Tailwind"/>
                 </div>
             </div>
         </div>
