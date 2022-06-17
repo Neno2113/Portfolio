@@ -1,6 +1,4 @@
-import WorkImg from '../assets/workImg.jpeg';
 import WebChat from '../assets/chat.png';
-import RealState from '../assets/realestate.jpg';
 import WorkItems from './WorkItems';
 
 const Work = () => {
